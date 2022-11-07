@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aakaw\\Desktop\\RestaurantApp\\Restaurant\\Restaurant\\Restaurant.csproj": {}
+    "D:\\Szkoła\\s5\\Restaurant Api projekt szkolny\\Restaurant\\Restaurant\\Restaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aakaw\\Desktop\\RestaurantApp\\Restaurant\\Restaurant\\Restaurant.csproj": {
+    "D:\\Szkoła\\s5\\Restaurant Api projekt szkolny\\Restaurant\\Restaurant\\Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aakaw\\Desktop\\RestaurantApp\\Restaurant\\Restaurant\\Restaurant.csproj",
+        "projectUniqueName": "D:\\Szkoła\\s5\\Restaurant Api projekt szkolny\\Restaurant\\Restaurant\\Restaurant.csproj",
         "projectName": "Restaurant",
-        "projectPath": "C:\\Users\\aakaw\\Desktop\\RestaurantApp\\Restaurant\\Restaurant\\Restaurant.csproj",
-        "packagesPath": "C:\\Users\\aakaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aakaw\\Desktop\\RestaurantApp\\Restaurant\\Restaurant\\obj\\",
+        "projectPath": "D:\\Szkoła\\s5\\Restaurant Api projekt szkolny\\Restaurant\\Restaurant\\Restaurant.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "D:\\Szkoła\\s5\\Restaurant Api projekt szkolny\\Restaurant\\Restaurant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aakaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
